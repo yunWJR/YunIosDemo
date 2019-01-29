@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		10E69BA10C271B521C11EC6F /* libPods-YunIosDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E1F3B04137C4DFCBCC41B0 /* libPods-YunIosDemo.a */; };
 		1D4D2387AC461EF4FDC00FEF /* YunQiNiuHelperDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4D2B79E9BA085E805F7BB4 /* YunQiNiuHelperDemo.m */; };
+		1D4D27525168AFC031A7B95E /* YunImgViewDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4D2778E711722C88B6161F /* YunImgViewDemo.m */; };
 		AE8616FB21F6F096000117A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8616FA21F6F096000117A5 /* AppDelegate.m */; };
 		AE8616FE21F6F096000117A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8616FD21F6F096000117A5 /* ViewController.m */; };
 		AE86170121F6F096000117A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8616FF21F6F096000117A5 /* Main.storyboard */; };
@@ -19,6 +20,8 @@
 
 /* Begin PBXFileReference section */
 		19A50D0D0589FABEB26CC618 /* Pods-YunIosDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YunIosDemo.debug.xcconfig"; path = "Target Support Files/Pods-YunIosDemo/Pods-YunIosDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		1D4D2778E711722C88B6161F /* YunImgViewDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YunImgViewDemo.m; sourceTree = "<group>"; };
+		1D4D2970C270B59A5E6E532C /* YunImgViewDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YunImgViewDemo.h; sourceTree = "<group>"; };
 		1D4D2B79E9BA085E805F7BB4 /* YunQiNiuHelperDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YunQiNiuHelperDemo.m; sourceTree = "<group>"; };
 		1D4D2CA9F69028DE17EC20C2 /* YunQiNiuHelperDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YunQiNiuHelperDemo.h; sourceTree = "<group>"; };
 		79E1F3B04137C4DFCBCC41B0 /* libPods-YunIosDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YunIosDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +69,15 @@
 			path = YunQiNiuHelper;
 			sourceTree = "<group>";
 		};
+		1D4D2AEC4661E047C5BE3C6F /* YunImgView */ = {
+			isa = PBXGroup;
+			children = (
+				1D4D2778E711722C88B6161F /* YunImgViewDemo.m */,
+				1D4D2970C270B59A5E6E532C /* YunImgViewDemo.h */,
+			);
+			path = YunImgView;
+			sourceTree = "<group>";
+		};
 		AE8616ED21F6F096000117A5 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +109,7 @@
 				AE86170721F6F098000117A5 /* Info.plist */,
 				AE86170821F6F098000117A5 /* main.m */,
 				1D4D2A5C0066FA5377033314 /* YunQiNiuHelper */,
+				1D4D2AEC4661E047C5BE3C6F /* YunImgView */,
 			);
 			path = YunIosDemo;
 			sourceTree = "<group>";
@@ -298,6 +311,7 @@
 				AE86170921F6F098000117A5 /* main.m in Sources */,
 				AE8616FB21F6F096000117A5 /* AppDelegate.m in Sources */,
 				1D4D2387AC461EF4FDC00FEF /* YunQiNiuHelperDemo.m in Sources */,
+				1D4D27525168AFC031A7B95E /* YunImgViewDemo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
