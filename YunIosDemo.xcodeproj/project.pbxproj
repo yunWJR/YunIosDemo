@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10E69BA10C271B521C11EC6F /* libPods-YunIosDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E1F3B04137C4DFCBCC41B0 /* libPods-YunIosDemo.a */; };
+		1D4D2387AC461EF4FDC00FEF /* YunQiNiuHelperDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4D2B79E9BA085E805F7BB4 /* YunQiNiuHelperDemo.m */; };
+		AE8616FB21F6F096000117A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8616FA21F6F096000117A5 /* AppDelegate.m */; };
+		AE8616FE21F6F096000117A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8616FD21F6F096000117A5 /* ViewController.m */; };
+		AE86170121F6F096000117A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8616FF21F6F096000117A5 /* Main.storyboard */; };
+		AE86170321F6F098000117A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE86170221F6F098000117A5 /* Assets.xcassets */; };
+		AE86170621F6F098000117A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE86170421F6F098000117A5 /* LaunchScreen.storyboard */; };
+		AE86170921F6F098000117A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE86170821F6F098000117A5 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19A50D0D0589FABEB26CC618 /* Pods-YunIosDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YunIosDemo.debug.xcconfig"; path = "Target Support Files/Pods-YunIosDemo/Pods-YunIosDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		1D4D2B79E9BA085E805F7BB4 /* YunQiNiuHelperDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YunQiNiuHelperDemo.m; sourceTree = "<group>"; };
+		1D4D2CA9F69028DE17EC20C2 /* YunQiNiuHelperDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YunQiNiuHelperDemo.h; sourceTree = "<group>"; };
+		79E1F3B04137C4DFCBCC41B0 /* libPods-YunIosDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YunIosDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE8616F621F6F096000117A5 /* YunIosDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YunIosDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE8616F921F6F096000117A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE8616FA21F6F096000117A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE8616FC21F6F096000117A5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE8616FD21F6F096000117A5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE86170021F6F096000117A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE86170221F6F098000117A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE86170521F6F098000117A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE86170721F6F098000117A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE86170821F6F098000117A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA57F447F13B8923B0404EB0 /* Pods-YunIosDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YunIosDemo.release.xcconfig"; path = "Target Support Files/Pods-YunIosDemo/Pods-YunIosDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE8616F321F6F096000117A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E69BA10C271B521C11EC6F /* libPods-YunIosDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B0245F514259E078457A7CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19A50D0D0589FABEB26CC618 /* Pods-YunIosDemo.debug.xcconfig */,
+				BA57F447F13B8923B0404EB0 /* Pods-YunIosDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1D4D2A5C0066FA5377033314 /* YunQiNiuHelper */ = {
+			isa = PBXGroup;
+			children = (
+				1D4D2B79E9BA085E805F7BB4 /* YunQiNiuHelperDemo.m */,
+				1D4D2CA9F69028DE17EC20C2 /* YunQiNiuHelperDemo.h */,
+			);
+			path = YunQiNiuHelper;
+			sourceTree = "<group>";
+		};
+		AE8616ED21F6F096000117A5 = {
+			isa = PBXGroup;
+			children = (
+				AE8616F821F6F096000117A5 /* YunIosDemo */,
+				AE8616F721F6F096000117A5 /* Products */,
+				0B0245F514259E078457A7CA /* Pods */,
+				B2F422769E63F0C2A4003D81 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AE8616F721F6F096000117A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE8616F621F6F096000117A5 /* YunIosDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE8616F821F6F096000117A5 /* YunIosDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AE8616F921F6F096000117A5 /* AppDelegate.h */,
+				AE8616FA21F6F096000117A5 /* AppDelegate.m */,
+				AE8616FC21F6F096000117A5 /* ViewController.h */,
+				AE8616FD21F6F096000117A5 /* ViewController.m */,
+				AE8616FF21F6F096000117A5 /* Main.storyboard */,
+				AE86170221F6F098000117A5 /* Assets.xcassets */,
+				AE86170421F6F098000117A5 /* LaunchScreen.storyboard */,
+				AE86170721F6F098000117A5 /* Info.plist */,
+				AE86170821F6F098000117A5 /* main.m */,
+				1D4D2A5C0066FA5377033314 /* YunQiNiuHelper */,
+			);
+			path = YunIosDemo;
+			sourceTree = "<group>";
+		};
+		B2F422769E63F0C2A4003D81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79E1F3B04137C4DFCBCC41B0 /* libPods-YunIosDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE8616F521F6F096000117A5 /* YunIosDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE86170C21F6F098000117A5 /* Build configuration list for PBXNativeTarget "YunIosDemo" */;
+			buildPhases = (
+				39736AA53F405F058ED46CED /* [CP] Check Pods Manifest.lock */,
+				AE8616F221F6F096000117A5 /* Sources */,
+				AE8616F321F6F096000117A5 /* Frameworks */,
+				AE8616F421F6F096000117A5 /* Resources */,
+				D1F479FDAD4070BAB3F92D91 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YunIosDemo;
+			productName = YunIosDemo;
+			productReference = AE8616F621F6F096000117A5 /* YunIosDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE8616EE21F6F096000117A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = skkj;
+				TargetAttributes = {
+					AE8616F521F6F096000117A5 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = AE8616F121F6F096000117A5 /* Build configuration list for PBXProject "YunIosDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE8616ED21F6F096000117A5;
+			productRefGroup = AE8616F721F6F096000117A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE8616F521F6F096000117A5 /* YunIosDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE8616F421F6F096000117A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE86170621F6F098000117A5 /* LaunchScreen.storyboard in Resources */,
+				AE86170321F6F098000117A5 /* Assets.xcassets in Resources */,
+				AE86170121F6F096000117A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39736AA53F405F058ED46CED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YunIosDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1F479FDAD4070BAB3F92D91 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YunIosDemo/Pods-YunIosDemo-resources.sh",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
+				"${PODS_ROOT}/YunImageBrowser/YunImageBrowser/YunImageBrowser/Assets/ImageError.png",
+				"${PODS_ROOT}/YunImageBrowser/YunImageBrowser/YunImageBrowser/Assets/ImageError@2x.png",
+				"${PODS_ROOT}/YunImageBrowser/YunImageBrowser/YunImageBrowser/Assets/ImageError@3x.png",
+				"${PODS_ROOT}/YunImageBrowser/YunImageBrowser/YunImageBrowser/Assets/ImageSelectedOff.png",
+				"${PODS_ROOT}/YunImageBrowser/YunImageBrowser/YunImageBrowser/Assets/ImageSelectedOff@2x.png",
+				"${PODS_ROOT}/YunImageBrowser/YunImageBrowser/YunImageBrowser/Assets/ImageSelectedOff@3x.png",
+				"${PODS_ROOT}/YunImageBrowser/YunImageBrowser/YunImageBrowser/Assets/ImageSelectedOn.png",
+				"${PODS_ROOT}/YunImageBrowser/YunImageBrowser/YunImageBrowser/Assets/ImageSelectedOn@2x.png",
+				"${PODS_ROOT}/YunImageBrowser/YunImageBrowser/YunImageBrowser/Assets/ImageSelectedOn@3x.png",
+				"${PODS_ROOT}/YunImageBrowser/YunImageBrowser/YunImageBrowser/Assets/ImageSelectedSmallOff.png",
+				"${PODS_ROOT}/YunImageBrowser/YunImageBrowser/YunImageBrowser/Assets/ImageSelectedSmallOff@2x.png",
+				"${PODS_ROOT}/YunImageBrowser/YunImageBrowser/YunImageBrowser/Assets/ImageSelectedSmallOff@3x.png",
+				"${PODS_ROOT}/YunImageBrowser/YunImageBrowser/YunImageBrowser/Assets/ImageSelectedSmallOn.png",
+				"${PODS_ROOT}/YunImageBrowser/YunImageBrowser/YunImageBrowser/Assets/ImageSelectedSmallOn@2x.png",
+				"${PODS_ROOT}/YunImageBrowser/YunImageBrowser/YunImageBrowser/Assets/ImageSelectedSmallOn@3x.png",
+				"${PODS_ROOT}/YunImageBrowser/YunImageBrowser/YunImageBrowser/Assets/PlayButtonOverlayLarge.png",
+				"${PODS_ROOT}/YunImageBrowser/YunImageBrowser/YunImageBrowser/Assets/PlayButtonOverlayLarge@2x.png",
+				"${PODS_ROOT}/YunImageBrowser/YunImageBrowser/YunImageBrowser/Assets/PlayButtonOverlayLarge@3x.png",
+				"${PODS_ROOT}/YunImageBrowser/YunImageBrowser/YunImageBrowser/Assets/PlayButtonOverlayLargeTap.png",
+				"${PODS_ROOT}/YunImageBrowser/YunImageBrowser/YunImageBrowser/Assets/PlayButtonOverlayLargeTap@2x.png",
+				"${PODS_ROOT}/YunImageBrowser/YunImageBrowser/YunImageBrowser/Assets/PlayButtonOverlayLargeTap@3x.png",
+				"${PODS_ROOT}/YunImageBrowser/YunImageBrowser/YunImageBrowser/Assets/UIBarButtonItemArrowLeft.png",
+				"${PODS_ROOT}/YunImageBrowser/YunImageBrowser/YunImageBrowser/Assets/UIBarButtonItemArrowLeft@2x.png",
+				"${PODS_ROOT}/YunImageBrowser/YunImageBrowser/YunImageBrowser/Assets/UIBarButtonItemArrowLeft@3x.png",
+				"${PODS_ROOT}/YunImageBrowser/YunImageBrowser/YunImageBrowser/Assets/UIBarButtonItemArrowRight.png",
+				"${PODS_ROOT}/YunImageBrowser/YunImageBrowser/YunImageBrowser/Assets/UIBarButtonItemArrowRight@2x.png",
+				"${PODS_ROOT}/YunImageBrowser/YunImageBrowser/YunImageBrowser/Assets/UIBarButtonItemArrowRight@3x.png",
+				"${PODS_ROOT}/YunImageBrowser/YunImageBrowser/YunImageBrowser/Assets/UIBarButtonItemGrid.png",
+				"${PODS_ROOT}/YunImageBrowser/YunImageBrowser/YunImageBrowser/Assets/UIBarButtonItemGrid@2x.png",
+				"${PODS_ROOT}/YunImageBrowser/YunImageBrowser/YunImageBrowser/Assets/UIBarButtonItemGrid@3x.png",
+				"${PODS_ROOT}/YunImageBrowser/YunImageBrowser/YunImageBrowser/Assets/VideoOverlay.png",
+				"${PODS_ROOT}/YunImageBrowser/YunImageBrowser/YunImageBrowser/Assets/VideoOverlay@2x.png",
+				"${PODS_ROOT}/YunImageBrowser/YunImageBrowser/YunImageBrowser/Assets/VideoOverlay@3x.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ImageError.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ImageError@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ImageError@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ImageSelectedOff.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ImageSelectedOff@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ImageSelectedOff@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ImageSelectedOn.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ImageSelectedOn@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ImageSelectedOn@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ImageSelectedSmallOff.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ImageSelectedSmallOff@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ImageSelectedSmallOff@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ImageSelectedSmallOn.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ImageSelectedSmallOn@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ImageSelectedSmallOn@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PlayButtonOverlayLarge.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PlayButtonOverlayLarge@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PlayButtonOverlayLarge@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PlayButtonOverlayLargeTap.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PlayButtonOverlayLargeTap@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PlayButtonOverlayLargeTap@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UIBarButtonItemArrowLeft.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UIBarButtonItemArrowLeft@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UIBarButtonItemArrowLeft@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UIBarButtonItemArrowRight.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UIBarButtonItemArrowRight@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UIBarButtonItemArrowRight@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UIBarButtonItemGrid.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UIBarButtonItemGrid@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UIBarButtonItemGrid@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VideoOverlay.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VideoOverlay@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VideoOverlay@3x.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YunIosDemo/Pods-YunIosDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE8616F221F6F096000117A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE8616FE21F6F096000117A5 /* ViewController.m in Sources */,
+				AE86170921F6F098000117A5 /* main.m in Sources */,
+				AE8616FB21F6F096000117A5 /* AppDelegate.m in Sources */,
+				1D4D2387AC461EF4FDC00FEF /* YunQiNiuHelperDemo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE8616FF21F6F096000117A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE86170021F6F096000117A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE86170421F6F098000117A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE86170521F6F098000117A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE86170A21F6F098000117A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AE86170B21F6F098000117A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE86170D21F6F098000117A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19A50D0D0589FABEB26CC618 /* Pods-YunIosDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BXQV9QF64J;
+				INFOPLIST_FILE = YunIosDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.skkj.YunIosDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE86170E21F6F098000117A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA57F447F13B8923B0404EB0 /* Pods-YunIosDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BXQV9QF64J;
+				INFOPLIST_FILE = YunIosDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.skkj.YunIosDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE8616F121F6F096000117A5 /* Build configuration list for PBXProject "YunIosDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE86170A21F6F098000117A5 /* Debug */,
+				AE86170B21F6F098000117A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE86170C21F6F098000117A5 /* Build configuration list for PBXNativeTarget "YunIosDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE86170D21F6F098000117A5 /* Debug */,
+				AE86170E21F6F098000117A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE8616EE21F6F096000117A5 /* Project object */;
+}
