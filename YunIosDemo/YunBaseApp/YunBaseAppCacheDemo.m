@@ -6,7 +6,7 @@
 #import "YunBaseAppCacheDemo.h"
 #import "YunCacheFileHelper.h"
 
-@interface YunBaseAppCacheDemo () {
+@interface YunBaseAppCacheDemo () <YunCacheFileHelperDelegate> {
 }
 
 @end
@@ -33,5 +33,13 @@
     /// 删除数据
     [YunCacheFileHelper.instance removeItemByIndex:cacheIndex];
 }
+
+- (NSString *)getFileName:(NSString *)fileName index:(NSInteger)index {
+    if(index == 1){
+        return @"file1";
+    }
+    return nil;
+}
+
 
 @end

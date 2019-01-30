@@ -3,6 +3,7 @@
 // Copyright (c) 2019 skkj. All rights reserved.
 //
 
+#import <YunKits/YunConfig.h>
 #import "YunHudOnWindowDemo.h"
 
 @interface YunHudOnWindowDemo () {
@@ -24,6 +25,10 @@
 
 - (void)initSubClass {
     /// 初始化页面内界面
+
+
+    YunHudOnWindowDemo *hudDemo = [YunHudOnWindowDemo new];
+    [hudDemo showView];
 }
 
 @end

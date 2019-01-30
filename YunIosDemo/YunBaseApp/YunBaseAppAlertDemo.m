@@ -15,15 +15,19 @@
 @implementation YunBaseAppAlertDemo
 
 - (void)demo {
+    /// 确定提示
     [YunAlertViewHelper.instance showYes:@"加载完成"];
 
+    /// 是否提示
     [YunAlertViewHelper.instance showYesNo:@"确定添加成员？" result:^(BOOL yes) {
 
     }];
 
+    /// 删除询问提示
     [YunAlertViewHelper.instance showDelete:@"确定删除成员？" result:^(BOOL yes) {
 
     }];
+
 
 
     /// 单例代理
@@ -34,15 +38,15 @@
 }
 
 - (void)showDelete:(NSString *)content result:(AlertYesBlock)result {
-
+    /// 自己实现控件显示
 }
 
 - (void)showYes:(NSString *)content {
-
+    /// 自己实现控件显示
 }
 
 - (void)showYes:(NSString *)content result:(AlertYesBlock)result {
-
+    /// 自己实现控件显示
 }
 
 - (void)showYesNo:(NSString *)content result:(AlertYesBlock)result {

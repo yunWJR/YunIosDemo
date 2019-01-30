@@ -5,9 +5,7 @@
 
 #import <YunBaseApp/YunErrorModel.h>
 #import "YunBaseAppErrorDemo.h"
-#import "YunErrorConfig.h"
 #import "YunErrorHelper.h"
-#import "YunRqtRpsHelper.h"
 
 @interface YunBaseAppErrorDemo () {
 }
@@ -16,7 +14,7 @@
 
 @implementation YunBaseAppErrorDemo
 
--(void)demo{
+- (void)demo {
     /// 设置自定义错误码和错误信息
     [YunErrorConfig.instance setItem:YunErrTypeOutOfLogin defMsg:@"登录信息已过期，请重新登录"];
     [YunErrorConfig.instance setItem:YunErrTypeOutOfLogin codes:@[
@@ -42,13 +40,21 @@
     //...
 
     /// 自定义错误
-    YunErrorModel *errorDef = [YunErrorModel itemWithType:YunErrTypeRqtTimeOut
-                                                     code:-1
-                                                      msg:nil];
+    YunErrorModel *errorItem = [YunErrorModel itemWithType:YunErrTypeRqtTimeOut
+                                                      code:-1
+                                                       msg:nil];
 
     /// RqtRsp错误
     YunRqtRpsHelper *rspHelper;
     YunErrorModel *rqtRspError = [YunErrorHelper itemWithRpsError:rspHelper].getError;
+
+    /// 根据 debug 模式返回错误信息：
+    /// 如果debug=NO，则返回正常的错误信息，生产环境
+    /// 如果debug=YES，则返回详细的错误信息，测试环境
+    NSString *errStr = errorItem.getMsgByMode;
+
+    NSString *errDtStr = errorItem.getDetailMsg;
+    NSString *errNorStr = errorItem.getNorMsg;
 }
 
 @end
